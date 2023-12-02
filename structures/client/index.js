@@ -4,12 +4,7 @@ const fs = require('fs')
 module.exports = class Bot extends Client {
     constructor(options = {
         intents: [IntentFlags.ALL],
-        guildsLifeTime: Infinity,
-        membersLifeTime: Infinity,
-        usersLifeTime: Infinity,
-        rolesLifeTime: Infinity,
-        messagesLifeTime: Infinity,
-        channelsLifeTime: Infinity
+        enableAllCaches: true
     }) {
         super(options);
         this.setMaxListeners(0)
