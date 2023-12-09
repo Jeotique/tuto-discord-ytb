@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "devland.js": "^1.4.1",
+    "devland.js": "^1.4.3",
     "mxtorie-db": "^1.0.5"
   }
 }
